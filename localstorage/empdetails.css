@@ -1,0 +1,117 @@
+
+
+body {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+
+h1 {
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+}
+
+
+.container{
+    background-color: #559ae9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin-bottom: 20px;
+    margin-left: 450px;
+    
+}
+
+
+label {
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+
+input[type="text"] {
+
+    padding: 8px;
+    width: 90%;
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 8px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+
+button {
+    padding: 10px 20px;
+    background-color: #b92929;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+
+
+h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+
+li {
+    background-color: #fff;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+button.edit-btn, button.delete-btn {
+    padding: 8px 15px;
+    background-color: #f44336;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    color: white;
+}
+
+button.edit-btn:hover, button.delete-btn:hover {
+    background-color: #d32f2f;
+}
+
+
+#clear-btn {
+    padding: 10px 20px;
+    background-color: #b64659;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    margin: 20px auto;
+}
+
+#clear-btn:hover {
+    background-color: #571e2b;
+}
+

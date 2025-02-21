@@ -1,0 +1,39 @@
+
+
+body {
+    background-color: bisque;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+#animi-box{
+    width: 140px;
+    height: auto;
+    background-color: rgb(160, 38, 54);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    border: 2px solid black;
+    padding: 30px;
+    transform: translateY(-50%);
+}
+
+button {
+    position: absolute;
+    border-radius: 5px;
+    top: 20px;
+    left: 20px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    
+} 
+
+button:hover {
+    background-color: #259485; 
+}
+
+

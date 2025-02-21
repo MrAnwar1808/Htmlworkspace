@@ -1,0 +1,31 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    text-align: center;
+    margin-top: 250px;
+  }
+
+ .grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px; 
+    background-color: rgb(211, 151, 60);
+ }
+.box{
+    border: 1px solid rgb(99, 8, 8);
+    justify-content: center;
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 10px;
+    align-content: center;
+    text-align: center;
+}
+.btn{
+    width: 100px;
+    background-color: aqua;
+} 
+

@@ -1,0 +1,111 @@
+
+.profile-card {
+    width: 300px;
+    margin: 50px auto;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+header {
+    background-color: #606468;
+    padding: 20px;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+p{
+    display: block;
+    color: red;
+    
+    
+}
+a{
+    margin-right: 20px;
+}
+
+
+.profile-info {
+    padding: 10px;
+    background-color: wheat;
+    gap: 15px;
+}
+.profile-info ul li{
+    display: inline-block;
+    padding: 0.5px;
+}
+
+
+
+
+
+/* .profile-info ul li:hover{
+    color: rgb(141, 91, 0);
+background-color: #606468;
+} */
+
+
+.name::after {
+    content: "Cat";
+    display: inline-block;
+    width: 50px;
+   color: rgb(153, 127, 255);
+    margin: 10px ;
+}
+.name::first-letter{
+    color: brown;
+    
+}
+
+
+
+
+
+.profile-info a:hover {
+    
+    background-color: #606468;
+}
+.profile-info a:active{
+    background-color: red;
+}
+.profile-info a:focus{
+    color: black;
+}
+
+
+.contact-button {
+   
+    width: 80%;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(141, 91, 0);
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+}
+
+
+.contact-button::before {
+    content: "$$";
+   color: aquamarine;
+   margin: 10px;
+
+}
+
+.contact-button:hover {
+    background-color: #357ABD;
+}
+
+::selection{
+    background-color: #36ce5c;
+}
+::placeholder{
+    color: #ce368a;
+}

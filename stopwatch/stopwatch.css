@@ -1,0 +1,74 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(245, 194, 86);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+}
+
+h1{
+    margin-bottom: 30px;
+    color: black;
+    font-size: 3rem;
+}
+
+#display{
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+#minutes{
+    color: white;
+    background-color: black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#seconds{
+    color: white;
+    background-color: black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#milliseconds{
+    color: white;
+    background-color: black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+
+}
+
+.controls button {
+
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+   
+  }
+
+  .controls button:hover {
+    background-color: #9b1d66;
+  }

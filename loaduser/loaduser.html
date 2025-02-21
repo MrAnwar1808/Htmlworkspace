@@ -1,0 +1,39 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>User List</title>
+<link rel="stylesheet" href="loaduser.css">
+
+</head>
+<body>
+
+<div class="container">
+
+<h1>User List</h1>
+<button id="loadUsersButton">Load Users</button>
+
+<div id="loadingMessage" class="loading">Loading...
+
+</div>
+
+<div id="errorMessage" class="error" style="display: none;">
+Failed to load users
+
+</div>
+
+<div id="userList" style="display: none;">
+<ul id="users">
+
+</ul>
+
+</div>
+</div>
+ 
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="loaduser.js"></script>
+</body>
+</html>

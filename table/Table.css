@@ -1,0 +1,21 @@
+
+body{
+    
+        border: 1px solid;
+     
+}
+th{
+    background-color: wheat;
+    color: navy;
+}
+tr:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+  }
+  
+  td:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+  }
+  td:nth-child(odd) {
+    background-color: rgba(83, 111, 234, 0.4);
+  }
+  

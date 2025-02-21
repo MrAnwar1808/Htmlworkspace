@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Budget Tracker App</title>
+    <link rel="stylesheet" href="budget.css">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <h1>Personal Budget Tracker</h1>
+        </header>
+
+        <section id="add-entry" class="section-add-entry">
+            <h2>Add Income/Expense</h2>
+            <form id="entry-form">
+                <input type="text" id="description" placeholder="Description" required>
+                <input type="number" id="amount" placeholder="Amount" required>
+                <select id="category" required>
+                    <option value="income">Income</option>
+                    <option value="expense">Expense</option>
+                </select>
+                <button type="submit">Add Entry</button>
+            </form>
+        </section>
+
+        <section id="filter-section" class="section-filter">
+            <h2>Filter by Category</h2>
+            <select id="category-filter">
+                <option value="all">All</option>
+                <option value="income">Income</option>
+                <option value="expense">Expense</option>
+            </select>
+            <button id="sort-ascending">Sort by Date (Ascending)</button>
+            <button id="sort-descending">Sort by Date (Descending)</button>
+        </section>
+
+        <section id="entries-section" class="section-entries">
+            <h2>Entries</h2>
+            <ul id="entries-list"></ul>
+        </section>
+
+        <section id="balance-section" class="section-balance">
+            <h2>Total Balance</h2>
+            <p id="total-balance">$0.00</p>
+        </section>
+    </div>
+
+    <script src="budget.js"></script>
+</body>
+</html>

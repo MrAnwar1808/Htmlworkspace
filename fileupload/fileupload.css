@@ -1,0 +1,68 @@
+
+
+body {
+    background-color: #58b4a8; 
+    padding: 0;
+    margin: 0;
+    
+}
+
+form {
+    background-color: antiquewhite;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px; 
+    margin-left: 500px;
+    
+}
+
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-left: 590px;
+    
+}
+
+
+input[type="file"] {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid black; 
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #cf3859;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+
+
+#message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
+
+
+#message.success {
+    color: #28a745; 
+}
+
+
+#message.error {
+    color: #dc3545; 
+}

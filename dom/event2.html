@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Handling and Dynamic Content</title>
+    <link rel="stylesheet" href="event2.css">
+</head>
+<body>
+    <div id="header">
+        <h1>Welcome to the Event Handling Demo</h1>
+    </div>
+
+    <!-- Search and Buttons -->
+    <div class="search">
+        <input type="text" id="texttyper" placeholder="Type something...">
+        <button id="btn">Click Me</button>
+    </div>
+
+    <!-- Form -->
+    <form id="forms">
+        <h2>Submit Your Details</h2>
+        <label for="firstname">First Name:</label>
+        <input type="text" id="firstname" placeholder="Enter first name..." required>
+        
+        <label for="lastname">Last Name:</label>
+        <input type="text" id="lastname" placeholder="Enter last name..." required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter email..." required>
+        
+        <label for="number">Mobile Number:</label>
+        <input type="text" id="number" placeholder="Enter mobile number..." required>
+        
+        <button type="submit" id="submit">Submit</button>
+    </form>
+
+    <!-- Ordered List -->
+    <ol id="ordered-list">
+        <li>Order food here!</li>
+        <li>Find a ride here!</li>
+        <li>Find the best hotel here!</li>
+        <li>Explore the best trips here!</li>
+    </ol>
+
+    <!-- Color Picker -->
+    <div id="targetElement">
+        <select name="bgc" id="bgc">
+            <option value="green">Green</option>
+            <option value="red">Red</option>
+            <option value="pink">Pink</option>
+            <option value="yellow">Yellow</option>
+        </select>
+    </div>
+
+    <script src="event2.js"></script>
+</body>
+</html>

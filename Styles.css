@@ -1,0 +1,99 @@
+
+body{
+    margin: 20px;
+    padding: auto;
+    background-color: rgb(98, 164, 194);
+    
+  
+}
+
+.title{
+    color: aquamarine;
+
+}
+.shop{
+    display: flex;
+    gap: 20px;
+}
+
+.product{
+    display: inline-block;
+    border: 1px solid black;
+    gap: 20px;
+    
+}
+.product button:hover{
+    background-color: aqua;
+}
+.product button{
+    
+    background-color: rgb(170, 170, 167);
+}
+.product button:focus{
+    background-color: rgb(27, 184, 85);
+    
+}
+.product button:active{
+    background-color: bisque;
+}
+.menu{
+    display: inline-flex;
+}
+.menu ol li:first-child{
+    color: brown;
+    font-size: xx-large;
+}
+.menu ol li:last-child{
+    color: green;
+    
+}
+
+
+
+
+
+
+
+/* form {
+    padding: 20px;
+    border-radius: 5px;
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], 
+input[type="email"], 
+textarea {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+
+
+
+input[type="submit"] {
+    background-color: #895129;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #7a451f;
+}
+input:focus {
+    background-color: rgb(166, 33, 69);
+  }
+a:active{
+    background-color: aqua;
+} */

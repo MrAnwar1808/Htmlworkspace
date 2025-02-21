@@ -1,0 +1,129 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #5e7f8b;
+    color: #333;
+}
+
+.app-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #a82a45;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+
+.section-add-entry, .section-filter, .section-balance {
+    margin-bottom: 30px;
+}
+
+form input, form select, form button {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+form button {
+    background-color: #a82a45;
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #d692a1;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+
+.section-entries ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.entry-item {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f4f4f4;
+    padding: 12px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+
+.entry-item:hover {
+    transform: scale(1.03);
+}
+
+.entry-description {
+    font-size: 1.2rem;
+}
+
+.entry-amount {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.entry-expense {
+    color: #e74c3c;
+}
+
+.entry-income {
+    color: #2ecc71;
+}
+
+
+#total-balance {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2ecc71;
+}
+
+
+@media (max-width: 768px) {
+    .app-container {
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    form input, form select, form button {
+        font-size: 1rem;
+    }
+}
